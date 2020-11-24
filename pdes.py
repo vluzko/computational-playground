@@ -74,10 +74,6 @@ def fcts_heat_equation_2d(steps: int=100, diff_coeff: float=4.0,
         plt.close()
 
 
-def gen_heat_mp4():
-    
-
-
 def poissons_equation():
     raise NotImplementedError
 

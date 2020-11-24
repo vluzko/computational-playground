@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 from pathlib import Path
 
 
-def fcts_heat_equation_2d(steps: int=100, diff_coeff: float=4.0,
+def ftcs_heat_equation_2d(steps: int=100, diff_coeff: float=4.0,
                      width: float=10.0, height: float=10.0,
                      dx: float=0.05, dy: float=0.05,
                      t_cool: float=300.0, t_hot: float=700.0):
@@ -83,4 +83,4 @@ def wave_equation():
 
 
 if __name__ == '__main__':
-    fcts_heat_equation_2d()
+    ftcs_heat_equation_2d()
